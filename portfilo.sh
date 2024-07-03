@@ -2,7 +2,6 @@
 #variables
 name="Valerie"
 major="Information Technology"
-declare -A game_content
 truthOne="$name has a server that they maintain"
 answerOne="True! $name, has worked with both Google cloud console and Oracle cloud, but has a Oracle Cloud server that they regularly host things on and take care of"
 lie="$name's main language is SQL"
