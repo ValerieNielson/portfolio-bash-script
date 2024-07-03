@@ -5,7 +5,7 @@ major="Information Technology"
 truthOne="$name has a server that they maintain"
 answerOne="True! $name, has worked with both Google cloud console and Oracle cloud, but has a Oracle Cloud server that they regularly host things on and take care of"
 lie="$name's main language is SQL"
-answerTwo="False, While SQL is somethign $name is very proficent in, python is $name's main language"
+answerTwo="False, While SQL is something $name is very proficent in, python is $name's main language"
 truthTwo="$name has particpated in a Hackathon"
 answerThree="True! $name created a website that gamified Cybersecurity for end users, make sure to checkout on github!"
 facts=("$name is a $major major" "$name has worked in 3 total tech postions variying in skills" "$name has a passion for backend devleopment and databases!" "$name has created a lot of projects all that show different sets of skills!" "$name loves to read, cross-stich and play video games when they have freetime")
@@ -35,7 +35,7 @@ while true; do
 
     # Check if the index is within the valid range of the array
     if ((i >= 0 && i < ${#facts[@]})); then
-        echo "${facts[$i]}/n"
+        echo "${facts[$i]}"
     else
         echo "Invalid input. Please enter a number between 1 and 5."
     fi
@@ -53,7 +53,7 @@ while true; do
 
     case $choice in
         1)
-            echo "$answerOne/n"
+            echo "$answerOne"
             ;;
         2)
             echo "$answerTwo"
