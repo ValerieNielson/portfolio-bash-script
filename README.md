@@ -1,4 +1,4 @@
-# Profiler Script
+# Profilo Script
 
 ## Overview
 This repository contains a bash script designed to provide an interactive experience where users can learn more about Valerie and play a game of "Two Truths and a Lie". The script guides the user through selecting facts about Valerie and engages them in a fun game.
